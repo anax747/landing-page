@@ -1,0 +1,176 @@
+* {
+  /* background-color: rgb(233, 125, 125); */
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #1f2937;
+  padding: 0 200px;
+  color: #f9faf8;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+.hero {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text,
+.image {
+  width: 490px;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+li,
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+button {
+  margin: 12px 0;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 12px 26px;
+  border-radius: 12px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.image {
+  background-color: #454547;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  padding: 50px 100px;
+}
+
+h3 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.blue-box {
+  border: 3px #3882f6 solid;
+  height: 100px;
+  width: 100px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.container {
+  display: flex;
+
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.sub-text {
+  text-align: center;
+  font-weight: 200;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+blockquote {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 260px;
+}
+
+blockquote > i {
+  font-size: 36px;
+  font-weight: 100;
+}
+
+footer {
+  text-align: end;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.call-to-action {
+  padding: 100px 200px;
+}
+
+.card {
+  background-color: #3882f6;
+  border-radius: 15px;
+  padding: 50px 160px;
+  color: #e5e7eb;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.cta-text {
+  font-weight: 200;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  border: 2px #f9faf8 solid;
+  padding: 12px 24px;
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  font-weight: 200;
+}
